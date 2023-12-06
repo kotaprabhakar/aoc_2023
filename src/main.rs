@@ -5,6 +5,7 @@ mod problem2;
 mod problem3;
 mod problem4;
 mod problem5;
+mod problem6;
 
 pub fn main_input(problem_number: i32) -> Vec<String> {
     utils::get_lines_from_string(utils::get_input_from_aoc(problem_number))
@@ -18,5 +19,6 @@ fn main() {
     // problem3::part2(main_input(3));
     // problem4::part1(main_input(4));
     // problem4::part2(main_input(4));
-    problem5::part2(main_input(5));
+    // problem5::part2(main_input(5));
+    problem6::part2(main_input(6));
 }
